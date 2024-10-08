@@ -3,7 +3,7 @@ import React from 'react';
 import QRCode from 'react-qr-code';
 
 const QuestionDisplay = ({ question, options, currentQuestionIndex, onOptionClick }) => {
-    const qrValue = `http://localhost:3000/?questionIndex=${currentQuestionIndex}`; // Change to your deployed URL
+    const qrValue = `https://quizapp1ra.onrender.com/?questionIndex=${currentQuestionIndex}`; // Change to your deployed URL
 
     return (
         <div style={{ textAlign: 'center', marginTop: '50px' }}>
